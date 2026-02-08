@@ -6,16 +6,14 @@
   </head>
   <body>
     <h1>Daily Savings Goal</h1>
-    <p id="result"></p>
+    <p id="result">day 1 :700 is left</p>
     <script>
       function output() {
         let earn = 2500;
-      let saves = 40% ;
-      let spending = 800;
-      let calculation = earn - spending;
-        document.getElementById("result").innerHTML = "2690 is left";
-        console.log(calculate)
-        console.log(calculation)
+        let saves = (40 / 100) * 2500;
+        let spending = 800;
+        let calculation = earn - saves - spending;
+        document.getElementById("result").innerHTML = "700 is left";
       }
     </script>
   </body>
